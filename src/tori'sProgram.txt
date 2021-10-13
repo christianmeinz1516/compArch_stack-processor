@@ -1,0 +1,30 @@
+pushLi 8
+pushLi 17
+add
+dup 0
+beq 6
+pushLi 7
+6: pushLi 43
+pushLi 0
+pushM 0
+popR $sp
+pushLi 42
+slt
+ls 3
+j 15
+pushLi 15
+15: pushLi 18
+js
+pushLi 5
+dup 0
+pushLi 15
+flip
+bne 23
+pushLi 57
+23: pushUi 1
+sub
+pushLi 17
+pushR $0
+popM 48
+pushUi 240
+or

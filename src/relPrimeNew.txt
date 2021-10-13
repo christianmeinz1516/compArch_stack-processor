@@ -1,0 +1,103 @@
+MAIN: push 5040
+j REL_PRIME
+RETURN_TO_MAIN: popR $v0
+j DONE
+
+
+
+
+
+
+
+
+
+
+
+
+REL_PRIME: pushLi 2
+dup 1
+pushR $sp
+popM -2
+pushR $sp
+popM 0
+WHILE_REL_PRIME: pushLi 4
+pushR $sp
+sub
+popR $sp
+j GCD
+BACK_FROM_GCD: pushLi 4
+pushR $sp
+add
+popR $sp
+pushLi 1
+beq RETURN_M
+pushR $sp
+pushM -2
+pushLi 1
+add
+dup 0
+pushR $sp
+popM -2
+pushR $sp
+pushM 0
+flip
+j WHILE_REL_PRIME
+
+RETURN_M: pushR $sp
+pushM -2
+j RETURN_TO_MAIN
+
+
+
+
+
+GCD: dup 1         #assumes b, then a in stack in order from top to bottom
+pushR $sp         #save a and b to 0 and -2  from sp respectively
+popM -2
+pushR $sp
+popM 0
+flip
+dup 0
+pushR $0
+beq RETURN_B    #if b == 0, return b
+WHILE: dup 1    # assumes a then b from top to bottom
+flip
+pushR $0
+beq RETURN_A    # if b == 0, while loop done and we jump return a
+popR $0
+dup 1
+flip
+slt
+pushLi 1
+bne B_MINUS_A   #if b < a (a > b), we do a = a-b. Else we do B_MINUS_A
+sub       
+pushR $sp
+popM 0
+pushR $sp
+pushM -2
+pushR $sp         # replaces the saved value of a with the new value.
+pushM 0
+j WHILE        # go back to while loop
+B_MINUS_A: flip
+sub
+pushR $sp
+popM -2
+pushR $sp         # replaces the save value of b with the new value
+pushM -2
+pushR $sp
+pushM 0
+j WHILE          # go back to while loop
+
+
+RETURN_B: popR $0   #assumes a, b in descending order so we pop a off
+j BACK_FROM_GCD
+
+RETURN_A: popR $0   # assumes a, a, b so we pop, then flip so we have b, a then pop so we only have a.
+flip
+popR $0
+j BACK_FROM_GCD
+
+
+
+
+DONE: j DONE   #end of program

@@ -1,0 +1,34 @@
+pushLi 10
+pushLi 11
+pushR $sp
+popM -2
+pushR $sp
+popM 0
+pushR $sp
+pushM 0
+pushR $sp
+pushM -2
+pushLi -6
+pushUi -1
+or
+pushR $sp
+add
+popR $sp
+j FUNCT
+RETURN: pushLi 6
+pushR $sp
+add
+popR $sp
+j DONE
+FUNCT: pushR $sp
+popM 0
+pushR $sp
+popM -2
+pushR $sp
+pushM 0
+pushR $sp
+pushM -2
+add
+popR $v0
+j RETURN
+DONE: pushR $v0

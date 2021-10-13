@@ -1,0 +1,24 @@
+pushLi 3
+pushLi 20
+pushLi 20
+popR $gp
+j MULTIPLY
+RETURN: add
+pushR $v0 
+j DONE
+MULTIPLY: flip
+dup 0
+pushLi 1
+beq DONE_MULTIPLICATION
+pushLi 1
+flip
+sub
+flip
+pushR $gp
+add
+j MULTIPLY
+DONE_MULTIPLICATION: flip
+popR $v0
+popR $0
+j RETURN
+DONE: j DONE # comments

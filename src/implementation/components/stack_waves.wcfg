@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/meinzecp/Documents/School/2019-2020 Courses/Computer Archetecture 1/Project/1920a-csse232-2V/implementation/components/work/ex_stack_tb_0_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="ex_stack_tb_0" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/ex_stack_tb_0/outA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">outA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">outA[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ex_stack_tb_0/outB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">outB[15:0]</obj_property>
+      <obj_property name="ObjectShortName">outB[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ex_stack_tb_0/outC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">outC[15:0]</obj_property>
+      <obj_property name="ObjectShortName">outC[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ex_stack_tb_0/outD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">outD[15:0]</obj_property>
+      <obj_property name="ObjectShortName">outD[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ex_stack_tb_0/pushVal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pushVal[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pushVal[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ex_stack_tb_0/popNum" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">popNum[1:0]</obj_property>
+      <obj_property name="ObjectShortName">popNum[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ex_stack_tb_0/dupNum" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dupNum[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dupNum[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ex_stack_tb_0/ESOp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ESOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ESOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ex_stack_tb_0/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider10" type="divider">
+      <obj_property name="label">stack</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ex_stack_tb_0/uut/tos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tos[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tos[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ex_stack_tb_0/uut/stack" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stack[0:31,15:0]</obj_property>
+      <obj_property name="ObjectShortName">stack[0:31,15:0]</obj_property>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[0,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[1,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[2,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[3,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[4,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[5,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[6,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[7,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[8,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[9,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[10,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[11,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[12,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[13,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[14,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[15,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[16,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[17,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[18,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[19,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[20,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[21,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[22,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[23,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[24,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[25,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[26,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[27,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[28,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[29,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[30,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ex_stack_tb_0/uut/stack[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31,15:0]</obj_property>
+         <obj_property name="ObjectShortName">stack[31,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

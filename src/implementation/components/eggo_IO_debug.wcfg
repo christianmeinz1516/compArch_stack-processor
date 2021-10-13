@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/meinzecp/Documents/School/2019-2020 Courses/Computer Archetecture 1/Project/1920a-csse232-2V/implementation/components/work/eggo_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="eggo_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="39" />
+   <wvobject fp_name="/eggo_tb/fromPushVal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fromPushVal[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fromPushVal[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/overflow" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">overflow</obj_property>
+      <obj_property name="ObjectShortName">overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/current_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/next_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">next_state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/IRtoControlwire" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IRtoControlwire[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IRtoControlwire[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/output_IO" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_IO[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_IO[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/input_IO" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_IO[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_IO[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider10" type="divider">
+      <obj_property name="label">RegFile</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/pushSys/regFile/w_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">w_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/pushSys/regFile/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[1:0]</obj_property>
+      <obj_property name="ObjectShortName">address[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/pushSys/regFile/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/pushSys/regFile/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/pushSys/regFile/regWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regWrite</obj_property>
+      <obj_property name="ObjectShortName">regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/pushSys/regFile/r_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/pushSys/regFile/V" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">V[15:0]</obj_property>
+      <obj_property name="ObjectShortName">V[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/pushSys/regFile/SP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SP[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SP[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/pushSys/regFile/GP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">GP[15:0]</obj_property>
+      <obj_property name="ObjectShortName">GP[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider20" type="divider">
+      <obj_property name="label">Stack</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/esSys/ES/stack[26]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[26,15:0]</obj_property>
+      <obj_property name="ObjectShortName">stack[26,15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/esSys/ES/stack[27]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[27,15:0]</obj_property>
+      <obj_property name="ObjectShortName">stack[27,15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/esSys/ES/stack[28]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[28,15:0]</obj_property>
+      <obj_property name="ObjectShortName">stack[28,15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/esSys/ES/stack[29]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[29,15:0]</obj_property>
+      <obj_property name="ObjectShortName">stack[29,15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/esSys/ES/stack[30]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[30,15:0]</obj_property>
+      <obj_property name="ObjectShortName">stack[30,15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/esSys/ES/stack[31]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[31,15:0]</obj_property>
+      <obj_property name="ObjectShortName">stack[31,15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/esSys/ES/tos" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tos[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tos[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider50" type="divider">
+      <obj_property name="label">IO Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/memSys/memory/wea" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/memSys/memory/isIO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">isIO</obj_property>
+      <obj_property name="ObjectShortName">isIO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/memSys/memory/out_Ctrl" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">out_Ctrl</obj_property>
+      <obj_property name="ObjectShortName">out_Ctrl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/memSys/memory/fromInput" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fromInput[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fromInput[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/memSys/memory/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[15:0]</obj_property>
+      <obj_property name="ObjectShortName">address[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/memSys/memory/data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/memSys/memory/toOutput" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">toOutput[15:0]</obj_property>
+      <obj_property name="ObjectShortName">toOutput[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/memSys/memory/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/memSys/memory/from_MemOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">from_MemOut[15:0]</obj_property>
+      <obj_property name="ObjectShortName">from_MemOut[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eggo_tb/uut/eggo/memSys/memory/in_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in_reg[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider78" type="divider">
+      <obj_property name="label">Memory Subsys</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="group71" type="group">
+      <obj_property name="label">Memsys</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/eggo_tb/uut/eggo/memSys/IRWrite" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">IRWrite</obj_property>
+         <obj_property name="ObjectShortName">IRWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eggo_tb/uut/eggo/memSys/wea" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">wea</obj_property>
+         <obj_property name="ObjectShortName">wea</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eggo_tb/uut/eggo/memSys/IorD" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">IorD</obj_property>
+         <obj_property name="ObjectShortName">IorD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eggo_tb/uut/eggo/memSys/PCWire" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">PCWire[15:0]</obj_property>
+         <obj_property name="ObjectShortName">PCWire[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eggo_tb/uut/eggo/memSys/bWire" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">bWire[15:0]</obj_property>
+         <obj_property name="ObjectShortName">bWire[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eggo_tb/uut/eggo/memSys/input_IO" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">input_IO[15:0]</obj_property>
+         <obj_property name="ObjectShortName">input_IO[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eggo_tb/uut/eggo/memSys/ALUoutWire" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">ALUoutWire[15:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUoutWire[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eggo_tb/uut/eggo/memSys/mux_mem" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mux_mem[15:0]</obj_property>
+         <obj_property name="ObjectShortName">mux_mem[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eggo_tb/uut/eggo/memSys/mem_reg" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">mem_reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_reg[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eggo_tb/uut/eggo/memSys/output_IO" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">output_IO[15:0]</obj_property>
+         <obj_property name="ObjectShortName">output_IO[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eggo_tb/uut/eggo/memSys/IRw" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">IRw[15:0]</obj_property>
+         <obj_property name="ObjectShortName">IRw[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eggo_tb/uut/eggo/memSys/Memoutw" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">Memoutw[15:0]</obj_property>
+         <obj_property name="ObjectShortName">Memoutw[15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

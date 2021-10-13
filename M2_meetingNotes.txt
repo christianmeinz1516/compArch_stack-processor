@@ -1,0 +1,4 @@
+Start thinking of input/output - Maybe use exception handler
+
+Set up initial values for RTL verification. Create by hand (not Verilog)
+

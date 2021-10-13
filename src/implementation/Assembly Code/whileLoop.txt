@@ -1,0 +1,25 @@
+pushR $zero
+pushR $sp
+dup 1
+popM 0
+popM -2
+LOOP: pushR $0
+pushR $sp
+pushM 0
+pushLi 10
+slt
+beq DONE
+pushR $sp
+pushM 0
+dup 0
+pushR $sp
+pushM -2
+add
+pushR $sp
+popM -2
+pushLi 1
+add
+pushR $sp
+popM 0
+j LOOP
+DONE: add

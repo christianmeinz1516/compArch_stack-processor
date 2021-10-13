@@ -1,0 +1,47 @@
+pushLi 2   # A
+pushLi 4   # B
+pushLi 6
+pushR $sp
+sub
+popR $sp
+j MULTIPLY
+RETURN: popR $v0 #put return value from multiply in to v0
+pushLi 6
+pushR $sp
+add
+popR $sp
+j DONE   #jump to end point
+MULTIPLY: pushR $sp
+popM -2  #b
+pushR $sp 
+popM 0  #a 
+pushR $sp
+pushM -2
+pushLi 1
+beq DONE_MULTIPLY
+pushR $sp
+pushM 0
+pushLi 1
+pushR $sp
+pushM -2    #b-1
+sub
+pushLi 6
+pushR $sp
+sub
+popR $sp
+j MULTIPLY
+HOPE: pushR $sp   #ok so this takes the return value plus the current one. 
+pushM 0     #If b == 1, we're done. Else, go back to this section
+add
+pushLi 1
+pushR $sp
+pushM -2
+beq HOPE
+pushLi 6
+pushR $sp
+add
+j RETURN
+DONE_MULTIPLY: pushR $sp
+pushM -2
+j RETURN
+DONE: pushLi 69

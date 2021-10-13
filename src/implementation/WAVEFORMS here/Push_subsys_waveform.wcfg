@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/szalayvm/Documents/CSSE232/components/work/push_subsys_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="push_subsys_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="divider14" type="divider">
+      <obj_property name="label">Basic inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/push_subsys_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/push_subsys_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider15" type="divider">
+      <obj_property name="label">Control bits</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/push_subsys_tb/ShiftSrc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ShiftSrc</obj_property>
+      <obj_property name="ObjectShortName">ShiftSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/push_subsys_tb/ShamtSrc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ShamtSrc</obj_property>
+      <obj_property name="ObjectShortName">ShamtSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/push_subsys_tb/RegWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/push_subsys_tb/PushSrc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PushSrc[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PushSrc[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider16" type="divider">
+      <obj_property name="label">Inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/push_subsys_tb/ALUOutWire" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUOutWire[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOutWire[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/push_subsys_tb/bWire" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bWire[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bWire[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/push_subsys_tb/aWire" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aWire[15:0]</obj_property>
+      <obj_property name="ObjectShortName">aWire[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/push_subsys_tb/Memoutw" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Memoutw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Memoutw[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/push_subsys_tb/IRw" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IRw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IRw[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/push_subsys_tb/SEw" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SEw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SEw[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider17" type="divider">
+      <obj_property name="label">Outputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/push_subsys_tb/PushValw" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PushValw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PushValw[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

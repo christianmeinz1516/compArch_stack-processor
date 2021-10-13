@@ -1,0 +1,81 @@
+pushLi 2
+pushR $sp
+popM 0
+pushR $sp
+popM -2
+pushLi 1
+LOOP: pushR $sp
+pushM 0
+pushR $sp
+pushM -2
+pushLi -6
+pushUi -1
+or
+pushR $sp
+add
+popR $sp
+j GCD
+RETURN: pushLi 6
+pushR $sp
+add
+popR $sp
+pushR $v0
+pushM -4
+bne DONE1
+pushR $sp
+pushM 0
+pushLi 1
+add
+pushR $sp
+popM 0
+j LOOP
+DONE1: pushR $sp
+pushM 0
+pushR $v0
+popM -4
+js
+GCD: pushR $sp
+popM 0
+pushR $sp
+popM -2
+pushR $sp
+pushM 0
+pushR $sp
+pushM -2
+bne LOOP2
+js
+LOOP2: pushR $sp
+pushM 0
+pushLi 0
+bne DONE2
+pushR $sp
+pushM 0
+pushR $sp
+pushM -2
+slt
+pushLi 0
+bne CON1
+pushR $sp
+pushM -2
+pushR $sp
+pushM 0
+sub
+pushR $sp
+pushM 0
+pushR $sp
+popM 0
+j LOOP2
+CON1: pushR $sp
+pushM 0
+pushR $sp
+pushM -2
+sub
+pushR $sp
+popM -2
+j LOOP2
+DONE2: pushR $sp
+pushM -2
+pushR $v0
+pushM 0
+js
+
